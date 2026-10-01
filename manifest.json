@@ -1,0 +1,28 @@
+{
+  "name": "Valor Externo Jotform",
+  "description": "Mostra e armazena o valor de um campo de outro formulário Jotform.",
+  "icon": "text",
+  "properties": [
+    {
+      "name": "IDform",
+      "type": "text",
+      "label": "ID do Formulário de Origem"
+    },
+    {
+      "name": "IDquestion",
+      "type": "text",
+      "label": "ID do Campo/Pergunta de Origem"
+    },
+    {
+      "name": "SubmissionID",
+      "type": "text",
+      "label": "Submission ID (opcional)"
+    },
+    {
+      "name": "Placeholder",
+      "type": "text",
+      "label": "Texto quando não existe valor"
+    }
+  ],
+  "tags": ["jotform", "textbox", "integração", "campo externo"]
+}
