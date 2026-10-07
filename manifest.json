@@ -1,28 +1,18 @@
 {
-  "name": "Valor Externo Jotform",
-  "description": "Mostra e armazena o valor de um campo de outro formulário Jotform.",
-  "icon": "text",
+  "name": "Última Resposta Jotform",
+  "description": "Widget que obtém a última resposta de um campo específico de outro formulário Jotform",
+  "icon": "textbox",
   "properties": [
     {
       "name": "IDform",
       "type": "text",
-      "label": "ID do Formulário de Origem"
+      "label": "ID do formulário de origem"
     },
     {
       "name": "IDquestion",
       "type": "text",
-      "label": "ID do Campo/Pergunta de Origem"
-    },
-    {
-      "name": "SubmissionID",
-      "type": "text",
-      "label": "Submission ID (opcional)"
-    },
-    {
-      "name": "Placeholder",
-      "type": "text",
-      "label": "Texto quando não existe valor"
+      "label": "ID do campo/pergunta a obter"
     }
   ],
-  "tags": ["jotform", "textbox", "integração", "campo externo"]
+  "tags": ["jotform", "api", "última resposta"]
 }
